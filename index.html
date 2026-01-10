@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kenneth Ramos | Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/dev.png">
     <link rel="stylesheet" href="assets/style.css">
 
 </head>
+
 <body>
     <!-- Header & Navigation -->
     <header>
@@ -32,7 +35,7 @@
     <section id="home" class="hero">
         <div class="container">
             <h1>Kenneth Ramos</h1>
-            <p>Aspiring IT Support Specialist | Backend Developer</p>
+            <p>Office Staff | IT Support Specialist | PHP Backend Developer</p>
             <div class="hero-btns">
                 <a href="#projects" class="btn">View Projects</a>
                 <a href="#contact" class="btn btn-outline">Contact Me</a>
@@ -49,10 +52,16 @@
                     <img src="assets/ramos_kenneth.jpg" alt="Kenneth Ramos">
                 </div>
                 <div class="about-text">
-                    <p>I'm a dedicated IT enthusiast with a Bachelor's degree in Information Technology and hands-on experience in both technical development and administrative operations.</p>
-                    <p>My background includes developing custom PHP systems for business needs while also managing office administration, inventory, and fleet operations. This unique combination allows me to understand both the technical and operational sides of business.</p>
-                    <p>I'm passionate about creating efficient solutions that streamline processes and improve productivity. Whether it's developing a custom management system or troubleshooting hardware issues, I approach every challenge with a problem-solving mindset.</p>
-                    <a href="assets/RAMOS_KENNETH_RESUME_2026.pdf" target="_blank" download class="btn">Download CV</a>
+                    <p>I'm a dedicated IT enthusiast with a Bachelor's degree in Information Technology and hands-on
+                        experience in both technical development and administrative operations.</p>
+                    <p>My background includes developing custom PHP systems for business needs while also managing
+                        office administration, inventory, and fleet operations. This unique combination allows me to
+                        understand both the technical and operational sides of business.</p>
+                    <p>I'm passionate about creating efficient solutions that streamline processes and improve
+                        productivity. Whether it's developing a custom management system or troubleshooting hardware
+                        issues, I approach every challenge with a problem-solving mindset.</p>
+                    <a href="assets/resume/RAMOS_KENNETH_RESUME_2026-latest.pdf" target="_blank" download
+                        class="btn">View Resume</a>
                 </div>
             </div>
         </div>
@@ -62,8 +71,9 @@
     <section id="skills" class="skills">
         <div class="container">
             <h2>Skills & Expertise</h2>
-            <div class="skills-container" style="display: flex; gap: 20px; flex-wrap: nowrap;">
-                <div class="skill-category" style="flex: 1; min-width: 0;">
+
+            <div class="skills-container">
+                <div class="skill-category">
                     <h3><i class="fas fa-code"></i> Web Development</h3>
                     <ul class="skill-list">
                         <li>PHP, HTML5, CSS, JS</li>
@@ -72,7 +82,8 @@
                         <li>Web Application Development</li>
                     </ul>
                 </div>
-                <div class="skill-category" style="flex: 1; min-width: 0;">
+
+                <div class="skill-category">
                     <h3><i class="fas fa-tools"></i> IT Support</h3>
                     <ul class="skill-list">
                         <li>Hardware & Software Troubleshooting</li>
@@ -81,8 +92,9 @@
                         <li>System Maintenance</li>
                     </ul>
                 </div>
-                <div class="skill-category" style="flex: 1; min-width: 0;">
-                    <h3><i class="fas fa-briefcase"></i>Office Administration</h3>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-briefcase"></i> Office Administration</h3>
                     <ul class="skill-list">
                         <li>Office Applications</li>
                         <li>Inventory Management</li>
@@ -90,18 +102,22 @@
                         <li>Admin Tasks</li>
                     </ul>
                 </div>
-                <div class="skill-category" style="flex: 1; min-width: 0;">
+
+                <div class="skill-category">
                     <h3><i class="fas fa-user-friends"></i> Soft Skills</h3>
                     <ul class="skill-list">
                         <li>Problem-Solving</li>
                         <li>Communication</li>
                         <li>Time Management</li>
-                        <li>Adaptability</li>    
+                        <li>Adaptability</li>
                     </ul>
                 </div>
+                
             </div>
         </div>
     </section>
+
+
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
@@ -110,37 +126,343 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="assets/e-wallet-system1.png" alt="E-wallet Recording System">
+                        <img src="assets/e-wallet-system/e-wallet-system1.png" alt="E-wallet Recording System">
                     </div>
                     <div class="project-content">
                         <h3>E-wallet Transaction Recording System</h3>
-                        <p>A custom PHP system for recording and managing e-wallet cash-in and cash-out transactions with comprehensive reporting features.</p>
+                        <p>A custom PHP system for recording and managing e-wallet cash-in and cash-out transactions
+                            with comprehensive reporting features.</p>
                         <div class="project-tech">
                             <span class="tech-tag">PHP</span>
                             <span class="tech-tag">MySQL</span>
                             <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">JavaScript</span>
                         </div>
-                        <a href="#" class="btn">View Details</a>
+                        <button class="btn view-details-btn" data-modal="modal-1">View Details</button>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="assets/pawnshop-system1.png" alt="Pawnshop System">
+                        <img src="assets/pawnshop/pawnshop9.png" alt="Pawnshop System">
                     </div>
                     <div class="project-content">
                         <h3>Pawnshop Management System</h3>
-                        <p>A complete management solution for pawnshop operations including item tracking, customer management, and payment processing.</p>
+                        <p>A complete management solution for pawnshop operations including item tracking, customer
+                            management, and payment processing.</p>
                         <div class="project-tech">
                             <span class="tech-tag">PHP</span>
                             <span class="tech-tag">MySQL</span>
                             <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Chart.js</span>
                         </div>
-                        <a href="#" class="btn">View Details</a>
+                        <button class="btn view-details-btn" data-modal="modal-2">View Details</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/hitok/hitok1.png" alt="HiTok">
+                    </div>
+                    <div class="project-content">
+                        <h3>HiTok Landing Page</h3>
+                        <p>HiTok is an integrated messaging application designed to work seamlessly with HiWifi,
+                            enabling users to communicate easily within connected networks.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <button class="btn view-details-btn" data-modal="modal-3">View Details</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/electric/electric1.png" alt="Electric Bill Generator">
+                    </div>
+                    <div class="project-content">
+                        <h3>Electric Bill Calculator</h3>
+                        <p>A simple electric bill calculator built with HTML and JavaScript that allows users to
+                            quickly estimate their electricity costs based on usage and rates.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <button class="btn view-details-btn" data-modal="modal-4">View Details</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal for E-wallet System -->
+    <div id="modal-1" class="modal">
+        <div class="modal-content">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <h3>E-wallet Transaction Recording System</h3>
+                <p class="modal-subtitle">A comprehensive system for managing digital wallet transactions</p>
+            </div>
+
+            <div class="modal-screenshots">
+                <h4>Screenshots</h4>
+                <div class="screenshot-container">
+                    <div class="screenshot-item">
+                        <img src="assets/e-wallet-system/e-wallet-system1.png" alt="Dashboard view">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/e-wallet-system/e-wallet-system13.png" alt="Dashboard view">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/e-wallet-system/e-wallet-system11.png" alt="Dashboard view">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/e-wallet-system/e-wallet-system12.png" alt="Dashboard view">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/e-wallet-system/e-wallet-system2.png" alt="Dashboard view">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/e-wallet-system/e-wallet-system3.png" alt="Dashboard view">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/e-wallet-system/e-wallet-system4.png" alt="Dashboard view">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/e-wallet-system/e-wallet-system5.png" alt="Dashboard view">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/e-wallet-system/e-wallet-system6.png" alt="Dashboard view">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/e-wallet-system/e-wallet-system9.png" alt="Dashboard view">
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+            <div class="modal-info">
+                <div class="modal-description">
+                    <h4>Project Description</h4>
+                    <p>This E-wallet Transaction Recording System is a custom-built solution designed to streamline
+                        digital financial transactions. The system allows users to record cash-in and cash-out
+                        transactions, generate comprehensive reports, and manage user accounts with different permission
+                        levels.</p>
+                    <p>Key features include real-time transaction tracking, automated balance calculations, Excel & PDF
+                        report
+                        generation, and an intuitive dashboard for monitoring financial activities. The system also
+                        includes multi branch and role-based access control to ensure data security.</p>
+                </div>
+
+                <div class="modal-tech-stack">
+                    <h4>Technology Stack</h4>
+                    <div class="modal-tech-stack-items">
+                        <div class="modal-tech-item php"><i class="fab fa-php"></i> PHP 8.0</div>
+                        <div class="modal-tech-item mysql"><i class="fas fa-database"></i> MySQL</div>
+                        <div class="modal-tech-item bootstrap"><i class="fab fa-bootstrap"></i> Bootstrap 5</div>
+                        <div class="modal-tech-item javascript"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="modal-tech-item"><i class="fas fa-chart-bar"></i> Chart.js</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Pawnshop System -->
+    <div id="modal-2" class="modal">
+        <div class="modal-content">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <h3>Pawnshop Management System</h3>
+                <p class="modal-subtitle">Complete solution for pawnshop operations and inventory management</p>
+            </div>
+
+            <div class="modal-screenshots">
+                <h4>Screenshots</h4>
+                <div class="screenshot-container">
+                    <div class="screenshot-item">
+                        <img src="assets/pawnshop/pawnshop1.png" alt="Item inventory">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/pawnshop/pawnshop9.png" alt="Item inventory">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/pawnshop/pawnshop2.png" alt="Item inventory">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/pawnshop/pawnshop3.png" alt="Item inventory">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/pawnshop/pawnshop4.png" alt="Item inventory">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/pawnshop/pawnshop5.png" alt="Item inventory">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/pawnshop/pawnshop6.png" alt="Item inventory">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/pawnshop/pawnshop7.png" alt="Item inventory">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/pawnshop/pawnshop8.png" alt="Item inventory">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/pawnshop/pawnshop10.png" alt="Item inventory">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal-info">
+                <div class="modal-description">
+                    <h4>Project Description</h4>
+                    <p>The Pawnshop Management System is a comprehensive solution designed to automate and streamline
+                        all aspects of pawnshop operations. The system handles item tracking, customer management,
+                        payment processing, and generates detailed reports for business analysis.</p>
+                    <p>Features include automated interest calculation, redemption tracking, pawned items management,
+                        and a complete inventory system with image upload capabilities. </p>
+                </div>
+
+                <div class="modal-tech-stack">
+                    <h4>Technology Stack</h4>
+                    <div class="modal-tech-stack-items">
+                        <div class="modal-tech-item php"><i class="fab fa-php"></i> PHP 8.0</div>
+                        <div class="modal-tech-item html"><i class="fab fa-html5"></i> HTML5</div>
+                        <div class="modal-tech-item mysql"><i class="fas fa-database"></i> MySQL</div>
+                        <div class="modal-tech-item javascript"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="modal-tech-item bootstrap"><i class="fab fa-bootstrap"></i> Bootstrap 5</div>
+                        <div class="modal-tech-item chartjs"><i class="fas fa-chart-line"></i> Chart.js</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal for hitok -->
+    <div id="modal-3" class="modal">
+        <div class="modal-content">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <h3>HiTok</h3>
+                <p class="modal-subtitle">Integrated Messaging Platform Landing Page</p>
+            </div>
+
+            <div class="modal-screenshots">
+                <h4>Screenshots</h4>
+                <div class="screenshot-container">
+                    <div class="screenshot-item">
+                        <img src="assets/hitok/hitok1.png" alt="HiTok">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/hitok/hitok2.png" alt="HiTok">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/hitok/hitok3.png" alt="HiTok">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/hitok/hitok4.png" alt="HiTok">
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="https://hitok.vercel.app/" target="_blank" class="project-link"><i
+                        class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+
+            <div class="modal-info">
+                <div class="modal-description">
+                    <h4>Project Description</h4>
+                    <p>HiTok is an integrated messaging application designed to work seamlessly with **HiWifi**,
+                        enabling users to communicate easily within connected networks. It provides fast, secure, and
+                        user-friendly messaging while supporting real-time notifications, user management, and system
+                        integration features making it ideal for communities, businesses, and network-based environments
+                        that rely on HiWifi for connectivity and operations.
+                    </p>
+
+                </div>
+
+                <div class="modal-tech-stack">
+                    <h4>Technology Stack</h4>
+                    <div class="modal-tech-stack-items">
+                        <div class="modal-tech-item html"><i class="fab fa-html5"></i> HTML5</div>
+                        <div class="modal-tech-item mysql"><i class="fas fa-database"></i> MySQL</div>
+                        <div class="modal-tech-item javascript"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="modal-tech-item bootstrap"><i class="fab fa-bootstrap"></i> Bootstrap 5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal for Electric Bill Generator -->
+    <div id="modal-4" class="modal">
+        <div class="modal-content">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <h3>HiTok</h3>
+                <p class="modal-subtitle">Electric Bill Calculator</p>
+            </div>
+
+            <div class="modal-screenshots">
+                <h4>Screenshots</h4>
+                <div class="screenshot-container">
+                    <div class="screenshot-item">
+                        <img src="assets/electric/electric1.png" alt="HiTok">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/electric/electric3.png" alt="HiTok">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/electric/electric2.png" alt="HiTok">
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="https://electric-bill-calculator.vercel.app/" target="_blank" class="project-link"><i
+                        class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+
+            <div class="modal-info">
+                <div class="modal-description">
+                    <h4>Electric Bill Calculator</h4>
+                    <p>A simple electric bill calculator built with HTML and JavaScript that allows users to
+                        estimate their electricity costs based on usage and selected barangays (Brgys.) as a
+                        reference for accurate rate-based calculations.
+                    </p>
+
+                </div>
+
+                <div class="modal-tech-stack">
+                    <h4>Technology Stack</h4>
+                    <div class="modal-tech-stack-items">
+                        <div class="modal-tech-item html"><i class="fab fa-html5"></i> HTML5</div>
+                        <div class="modal-tech-item javascript"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="modal-tech-item bootstrap"><i class="fab fa-bootstrap"></i> Bootstrap 5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Fullscreen Image Viewer -->
+    <div class="fullscreen-viewer">
+        <button class="fullscreen-close"><i class="fas fa-times"></i></button>
+        <img class="fullscreen-img" src="" alt="Fullscreen view">
+    </div>
 
     <!-- Experience Section -->
     <section id="experience" class="experience">
@@ -151,21 +473,26 @@
                     <div class="timeline-content">
                         <h3>Inventory & Fleet Staff</h3>
                         <div class="timeline-date">Jan. 2024 - Jan. 2026</div>
-                        <p>Managed office operations, coordinated with suppliers, maintained inventory records, and assisted with fleet management tasks. Provided technical support for hardware and software issues while managing office administration tasks including inventory management and fleet coordination.</p>
+                        <p>Managed office operations, coordinated with suppliers, maintained inventory records, and
+                            assisted with fleet management tasks. Provided technical support for hardware and software
+                            issues while managing office administration tasks including inventory management and fleet
+                            coordination.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>PHP Developer (part-time)</h3>
                         <div class="timeline-date">2022 - Present</div>
-                        <p>Developed custom PHP systems for small businesses including the GCash Transaction System and Pawnshop Management System.</p>
+                        <p>Developed custom PHP systems for small businesses including the GCash Transaction System and
+                            Pawnshop Management System.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>Administrative Aide I</h3>
                         <div class="timeline-date">July 2022 - June 2023</div>
-                        <p>Assisted in office tasks including filing, record keeping, and general administrative support.</p>
+                        <p>Assisted in office tasks including filing, record keeping, and general administrative
+                            support.</p>
                     </div>
                 </div>
             </div>
@@ -252,7 +579,7 @@
             <div class="footer-content">
                 <div class="logo" style="color: aliceblue;">Kenneth<span>Ramos</span></div>
                 <div class="social-links">
-                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/kenneth-ramos-36baa2172/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
                     <!-- <a href="#" class="social-link"><i class="fab fa-github"></i></a> -->
                     <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
                     <a href="#" class="social-link"><i class="fab fa-viber"></i></a>
@@ -264,6 +591,8 @@
         </div>
     </footer>
 
-<script src="assets/script.js"></script>
+    <script src="assets/script.js"></script>
+
 </body>
+
 </html>
